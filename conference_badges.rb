@@ -27,5 +27,5 @@ def printer(array)
   
 end
 
-
+array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 printer(array)
