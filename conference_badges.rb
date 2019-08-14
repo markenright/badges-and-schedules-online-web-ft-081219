@@ -21,6 +21,12 @@ def assign_rooms(array)
   return new_array
 end
 
+def printer
+  batch_badge_creator
+  assign_rooms
+  
+end
+
 
 array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 assign_rooms(array)
