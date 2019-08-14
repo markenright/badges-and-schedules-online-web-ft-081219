@@ -13,7 +13,7 @@ end
 def assign_rooms(array)
   new_array = []
   array.each_with_index do |name, index|
-   puts("Hello, #{name}! You'll be assigned to room #{index+1}!")
+   
     new_array.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
   
   end
@@ -22,11 +22,8 @@ def assign_rooms(array)
 end
 
 def printer
-  batch_badge_creator
-  assign_rooms
+  puts batch_badge_creator
+  puts assign_rooms
   
 end
 
-
-array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-assign_rooms(array)
