@@ -22,3 +22,5 @@ def assign_rooms(array)
 end
 
 
+array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+assign_rooms(array)
