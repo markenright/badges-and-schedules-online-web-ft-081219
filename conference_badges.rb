@@ -27,3 +27,5 @@ def printer(array)
   
 end
 
+
+printer(array)
