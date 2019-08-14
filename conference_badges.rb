@@ -20,3 +20,5 @@ def assign_rooms(array)
   puts new_array
   return new_array
 end
+
+
